@@ -1,0 +1,113 @@
+vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/CLB_classique.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 10:32:34 on Mar 22,2018
+# vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/CLB_classique.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CLB
+# -- Compiling architecture archi_clb of CLB
+# End time: 10:32:34 on Mar 22,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/CLB_SEU.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 10:32:34 on Mar 22,2018
+# vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/CLB_SEU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CLB_SEU
+# -- Compiling architecture archi_clb_seu of CLB_SEU
+# End time: 10:32:34 on Mar 22,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/LUT.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 10:32:34 on Mar 22,2018
+# vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/LUT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LUT
+# -- Compiling architecture LUT_arch of LUT
+# End time: 10:32:35 on Mar 22,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/registre.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 10:32:35 on Mar 22,2018
+# vcom -reportprogress 300 -work lib_VHDL Z:/home/tlesage/Documents/Projet_S4/VHD/registre.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registre
+# -- Compiling architecture registre_arch of registre
+# End time: 10:32:35 on Mar 22,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work lib_bench Z:/home/tlesage/Documents/Projet_S4/bench/bench_clb_class.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 10:32:43 on Mar 22,2018
+# vcom -reportprogress 300 -work lib_bench Z:/home/tlesage/Documents/Projet_S4/bench/bench_clb_class.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bench_class
+# -- Compiling architecture arch_bench_class of bench_class
+# End time: 10:32:43 on Mar 22,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work lib_bench Z:/home/tlesage/Documents/Projet_S4/bench/bench_clb_seu.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 10:32:43 on Mar 22,2018
+# vcom -reportprogress 300 -work lib_bench Z:/home/tlesage/Documents/Projet_S4/bench/bench_clb_seu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bench_SEU
+# -- Compiling architecture arch_bench_SEU of bench_SEU
+# End time: 10:32:43 on Mar 22,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim lib_bench.bench_seu
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim 
+# Start time: 10:32:48 on Mar 22,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_bench.bench_seu(arch_bench_seu)
+# Loading lib_vhdl.clb_seu(archi_clb_seu)
+# Loading lib_vhdl.clb(archi_clb)
+# Loading lib_vhdl.lut(lut_arch)
+# Loading lib_vhdl.registre(registre_arch)
+add wave -position insertpoint  \
+sim:/bench_seu/clk \
+sim:/bench_seu/E_1 \
+sim:/bench_seu/E_2 \
+sim:/bench_seu/comm_mux \
+sim:/bench_seu/config_1 \
+sim:/bench_seu/config_2 \
+sim:/bench_seu/Rst \
+sim:/bench_seu/S \
+sim:/bench_seu/CLB_SEU_ERROR
+restart
+run

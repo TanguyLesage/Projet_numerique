@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/home/tlesage/Documents/Projet_S4
+Elut
+Z1 w1521675348
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8Z:/home/tlesage/Documents/Projet_S4/VHD/LUT.vhd
+Z5 FZ:/home/tlesage/Documents/Projet_S4/VHD/LUT.vhd
+l0
+L6
+VzmeGNM;>9Yd?AKO5X0bZ@3
+!s100 >NKLEF4mG_5cQU97;OEQP2
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1521706122
+!i10b 1
+Z8 !s108 1521706122.000000
+Z9 !s90 -reportprogress|300|-work|work|Z:/home/tlesage/Documents/Projet_S4/VHD/LUT.vhd|
+Z10 !s107 Z:/home/tlesage/Documents/Projet_S4/VHD/LUT.vhd|
+!i113 1
+Z11 o-work work -O0
+Z12 tExplicit 1
+Alut_arch
+R2
+R3
+DEx4 work 3 lut 0 22 zmeGNM;>9Yd?AKO5X0bZ@3
+l13
+L12
+VkYEf^JGiSROi5b;BcGKb@2
+!s100 5lGlMiXTT2]Ga4z]XH2_j2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eregistre
+R1
+Z13 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z14 8Z:/home/tlesage/Documents/Projet_S4/VHD/registre.vhd
+Z15 FZ:/home/tlesage/Documents/Projet_S4/VHD/registre.vhd
+l0
+L5
+VQWFidR;ATH6<9US_]0Ah=3
+!s100 hBVYLc2QG5EFQLKmdXc>G2
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|Z:/home/tlesage/Documents/Projet_S4/VHD/registre.vhd|
+Z17 !s107 Z:/home/tlesage/Documents/Projet_S4/VHD/registre.vhd|
+!i113 1
+R11
+R12
+Aregistre_arch
+R13
+R2
+R3
+DEx4 work 8 registre 0 22 QWFidR;ATH6<9US_]0Ah=3
+l14
+L12
+ViAgc[?7Hh40DE[jU8bTZ>0
+!s100 MBkE9gM:9VTBE`WBLLRKf3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
