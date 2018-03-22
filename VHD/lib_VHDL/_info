@@ -8,3 +8,83 @@ z2
 !i10f 100
 cModel Technology
 Z0 dZ:/home/tlesage/Documents/Projet_S4/VHD
+Ebuff
+Z1 w1521713658
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8Z:/home/tlesage/Documents/Projet_S4/VHD/Buff_tri_state.vhd
+Z5 FZ:/home/tlesage/Documents/Projet_S4/VHD/Buff_tri_state.vhd
+l0
+L4
+V5PSa9Bn`c8m=WI3I8QYOU1
+!s100 Ln4<E7<f[:9RKVVd;6P;F3
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1521716240
+!i10b 1
+Z8 !s108 1521716240.000000
+Z9 !s90 -reportprogress|300|-work|lib_VHDL|Z:/home/tlesage/Documents/Projet_S4/VHD/Buff_tri_state.vhd|
+Z10 !s107 Z:/home/tlesage/Documents/Projet_S4/VHD/Buff_tri_state.vhd|
+!i113 1
+Z11 o-work lib_VHDL -O0
+Z12 tExplicit 1
+Abuff_arch
+R2
+R3
+DEx4 work 4 buff 0 22 5PSa9Bn`c8m=WI3I8QYOU1
+l11
+L10
+Vdlf3O7h6AzznkkTif6@DK2
+!s100 >`dc3hAY]OV?Fj?BHVVAo1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Elil_switch
+Z13 w1521716227
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8Z:/home/tlesage/Documents/Projet_S4/VHD/lil_switch.vhd
+Z16 FZ:/home/tlesage/Documents/Projet_S4/VHD/lil_switch.vhd
+l0
+L8
+VW?I1I9OK8`>FnFKPohiV`1
+!s100 =L9z]3V[UAS9kHRjU:ToL0
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|lib_VHDL|Z:/home/tlesage/Documents/Projet_S4/VHD/lil_switch.vhd|
+Z18 !s107 Z:/home/tlesage/Documents/Projet_S4/VHD/lil_switch.vhd|
+!i113 1
+R11
+R12
+Aarchi_ls
+R14
+R2
+R3
+DEx4 work 10 lil_switch 0 22 W?I1I9OK8`>FnFKPohiV`1
+l28
+L16
+Vj>8cNUFG;D^ClI^Wk;YlP2
+!s100 d^;cj:bJ1XzM5iG8NfG:Y2
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
